@@ -1,0 +1,30 @@
+.cabecalho{
+  width: 100%;
+  height: 80px;
+font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  align-items: center;
+  background:linear-gradient( black,black,transparent);
+ position: fixed;
+  
+}
+.cabecalho .nav__lista{
+  display: flex;
+  
+}
+.cabecalho .nav__lista li{
+  padding-left: 50px;
+  
+}
+.cabecalho .nav__lista li a{
+  color:#fff;
+  
+}
+.cabecalho .nav__lista li a:hover{
+  color:#ed6f00;
+  transition: 1s;
+  
+}
+

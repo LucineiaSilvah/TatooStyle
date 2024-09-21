@@ -1,0 +1,17 @@
+.tipos{
+  width: 100%;
+  height: 250px;
+  background: #000;
+  display: flex;
+}
+.tipos__list{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-family: "Pirata One", system-ui;
+}
+.tipos__list .tipo img{
+  filter: invert(1);
+}

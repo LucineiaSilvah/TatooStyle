@@ -1,0 +1,18 @@
+.sobre{
+  margin-top: 6rem;
+  background: #000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sobre h3{
+  margin: 2rem;
+}
+.sobre__texto{
+  width: 80%;
+  letter-spacing: 2px;
+  text-align:justify ;
+  line-height: 2rem;
+}

@@ -1,0 +1,16 @@
+.rodape{
+  background: #000;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links li{
+  margin: 10px;
+}
+.links a{
+ border-left: 2px solid #ed6f00;
+ padding-left: 10px;
+ color: #fff;
+padding: 10px;
+}
