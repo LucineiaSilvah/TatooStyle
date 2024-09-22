@@ -22,7 +22,11 @@
     <header class="cabecalho">
        <h1>Tatoo Style</h1>
        <nav class="nav">
+         
         <ul class="nav__lista">
+          <li>
+            <a href="#inicio">Inicio</a>
+          </li>
           <li>
             <a href="#sobre">Sobre</a>
           </li>
@@ -37,8 +41,9 @@
           </li>
         </ul>
        </nav>
+       <img class="menu-icon" src="/src/img/cardapio.png" alt="" >
       </header>
-      <section class="banner">
+      <section class="banner" id="inicio">
            <h2>Tatoo Style</h2>
            <a class="call" href="https://api.whatsapp.com/send?phone=5541984536057&text=Ol%C3%A1,%20vi%20seu%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento">Agende a Sua agora!!!</a>
       </section>     
@@ -172,5 +177,26 @@
       </footer>
 
   </div>
+  <script >
+   let icon = document.querySelector('.menu-icon');
+    
+  
+  
+ 
+  
+   let nav = document.querySelector('.nav');
+   icon.addEventListener('click',()=>{
+     nav.classList.toggle('abrir')
+   })
+   
+  
+  let btn = document.querySelector('.btn');
+  
+  btn.addEventListener('click',(e)=>{
+   e.preventDefault();
+   
+    alert('mensagem enviada com sucesso!')
+  })
+  </script>
 </body>
 </html>

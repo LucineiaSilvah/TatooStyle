@@ -31,4 +31,17 @@
   letter-spacing: 6px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 768px){
+  
+  .contato form{
+  width: 80%;
+  background:rgba(0,0,0,0.5);
+  display: flex;
+  padding: 2rem;
+  margin: 2rem;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+  
+}
 
