@@ -3,12 +3,12 @@
   background:linear-gradient( black,transparent);
 }
 .galeria__container{
-  width: 100%;
+  width: 80%;
 
   max-width: 1100px;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 60px;
+  margin:50px auto;
+ 
+  
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows:250px ;

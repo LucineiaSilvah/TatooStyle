@@ -1,6 +1,6 @@
 .contato{
   width: 100%;
-  height: 100vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,8 +31,14 @@
   letter-spacing: 6px;
   text-transform: uppercase;
 }
-@media screen and (max-width: 768px){
+.mapa{
+
   
+}
+@media screen and (max-width: 768px){
+  .mapa{
+   
+  }
   .contato form{
   width: 80%;
   background:rgba(0,0,0,0.5);
