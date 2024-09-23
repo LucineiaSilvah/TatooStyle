@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 body,html{
-  background:url('/src/img/Bg.jpeg');
+  background:url('/src/img/Bg.jpeg')no-repeat center / cover;
   color: #fff;
   height: 100%;
   background-attachment: fixed;

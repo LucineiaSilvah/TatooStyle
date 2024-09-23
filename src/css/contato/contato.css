@@ -1,6 +1,6 @@
 .contato{
   width: 100%;
-  
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,13 +31,48 @@
   letter-spacing: 6px;
   text-transform: uppercase;
 }
-.mapa{
-
+.redes{
   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+.redes a{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.redes img{
+ width: 50px;
+}
+.local{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+iframe{
+  background: #000;
+  width: 50%;
+  height: 300px;
+  padding: .5rem;
 }
 @media screen and (max-width: 768px){
-  .mapa{
-   
+  .redes a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+    font-style: italic;
   }
   .contato form{
   width: 80%;
@@ -48,6 +83,11 @@
   flex-direction: column;
   font-size: 1.5rem;
 }
-  
+iframe{
+  background: #000;
+  width: 80%;
+  height: 300px;
+  padding: .5rem;
+}
 }
 

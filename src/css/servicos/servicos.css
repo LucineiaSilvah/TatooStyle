@@ -1,0 +1,23 @@
+.servicos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+
+}
+.servicos p{
+  width: 80%;
+  letter-spacing: 2px;
+  text-align:justify ;
+  line-height: 2rem;
+  margin-top: 3rem;
+  position: relative;
+}
+.servicos img{
+  filter: invert(1);
+  position: absolute;
+  left: -40px;
+  top: -50px;
+}
