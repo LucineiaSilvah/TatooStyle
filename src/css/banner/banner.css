@@ -10,4 +10,5 @@ flex-direction: column;
 .banner h2{
   font-family: "Pirata One", system-ui;
   font-size: 6rem;
+  text-align: center;
 }

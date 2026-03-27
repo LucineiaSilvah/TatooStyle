@@ -16,3 +16,8 @@
   text-align:justify ;
   line-height: 2rem;
 }
+@media screen and (max-width: 768px){
+  .sobre{
+    height: auto;
+  }
+}

@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px;
 }
 .links li{
   margin: 10px;
@@ -13,4 +14,15 @@
  padding-left: 10px;
  color: #fff;
 padding: 10px;
+}
+.nome a{
+  color: #ed6f00;
+}
+
+@media screen and (max-width: 768px){
+  .dev{
+ text-align: center;
+ margin: auto;
+  }
+
 }
